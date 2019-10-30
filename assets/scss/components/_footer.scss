@@ -1,0 +1,122 @@
+
+/*
+|----------------------------------------------------------------------------
+| 17. Footer Style
+|----------------------------------------------------------------------------
+*/
+
+.footer{
+    background: $tertiary-color;
+}
+
+.footer-logo {
+    color: #fff;
+    font-weight: 700;
+}
+.footer-upper-section{
+   padding: 120px 0;
+   position: relative;
+   .footer-icon-wrap{
+       position: absolute;
+       right: 170px;
+       bottom: 55px;
+   }
+}
+.footer-info-list{
+    >h4{
+        font-size: 19px;
+        font-weight: 700;
+        color: $white_clr;
+        margin-bottom: 40px;
+    }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            margin-bottom: 15px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            a{
+                color: #c6cbdb;
+                transition: all 0.3s ease-in ;
+                -webkit-transition: all 0.3s ease-in ;
+                -moz-transition: all 0.3s ease-in ;
+                -ms-transition: all 0.3s ease-in ;
+                -o-transition: all 0.3s ease-in ;
+                &:hover{
+                    color: $white_clr;
+                }
+            }
+        }
+    }
+    .contact-info{
+        color: #c6cbdb;
+        margin-bottom: 65px;
+        li{
+            margin-bottom: 5px;
+        }
+        span{
+            color: $primary-color;
+            a {
+                color: $primary-color;
+            }
+        }
+    }
+    .social-style-two{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+            a{
+                color: $primary-color;
+                font-size: 18px;
+                transition: .5s;
+                &:hover{
+                    transform: scale(1.3);
+                    color: darken($primary-color, 10%);
+                }
+            }
+        }
+    }
+}
+.footer-bottom{
+    padding: 45px 0;
+    border-top: 1px solid $primary-color;
+}
+.footer-bottom-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trade-volume-block{
+    order: 2;
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            color: #c6cbdb;
+            margin-right: 25px;
+            span{
+                color: $white_clr;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.copyright-text{
+    order: 1;
+    color: #c6cbdb;
+}

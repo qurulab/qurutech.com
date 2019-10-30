@@ -1,0 +1,90 @@
+
+/*
+|----------------------------------------------------------------------------
+| 6. Banner Style
+|----------------------------------------------------------------------------
+*/
+.mobile {
+    display: none;
+}
+.banner-block{
+    padding: 66px 0 43px 0;
+    position: relative;
+    background-size: cover;
+}
+.banner-parent {
+    background: rgb(11,14,17);
+background: linear-gradient(90deg, rgba(11,14,17,1) 0%, rgba(18,22,28,1) 100%);
+    padding: 8em 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 767px) {
+        .banner-parent {
+            padding: 8em 2em !important;
+        }
+    }
+}
+
+.banner-img {
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+    h2{
+        font-weight: 700;
+        color: $white_clr;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 1em;
+    }
+    p{
+        color: $white_clr;
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 57px;
+    }
+    .subs-form{
+        .input-box{
+            max-width: 570px;
+            position: relative;
+            margin: 0 auto;
+        }
+        input{
+            border: none;
+            height: 55px;
+            padding: 0 175px 0 25px;
+            background: $white_clr;
+            &:focus{
+                outline: 0;
+                box-shadow: none;
+            }
+        }
+        button{
+            position: absolute;
+            right: 0;
+            top: 0;
+            min-width: 170px;
+            height: 55px;
+            background: $lime_blue_clr;
+            color: $white_clr;
+            border: none;
+            outline: 0;
+            box-shadow: none;
+            font-weight: 700;
+            cursor: pointer;
+            &:active,
+            &:focus{
+                border: none;
+                outline: 0;
+                box-shadow: none;
+            }
+            border-radius: 0 3px 3px 0 ;
+            -webkit-border-radius: 0 3px 3px 0 ;
+            -moz-border-radius: 0 3px 3px 0 ;
+            -ms-border-radius: 0 3px 3px 0 ;
+            -o-border-radius: 0 3px 3px 0 ;
+}
+    }
+}
