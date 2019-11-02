@@ -19,7 +19,7 @@
           </button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown" v-if="false">
+              <li v-if="false" class="nav-item dropdown">
                 <a class="nav-link" href="exchange-one.html">Platform </a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
@@ -30,7 +30,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item" v-if="false">
+              <li v-if="false" class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
               </li>
               <li class="nav-item">

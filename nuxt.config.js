@@ -24,7 +24,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#f5bc31;' },
+  loading: { color: '#f5bc31' },
   scripts: [
     '~/static/js/jquery-1.12.4.min.js',
     '~/static/js/popper.min.js',
@@ -48,7 +48,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/vueTyper.client'],
+  plugins: ['~/plugins/vueTyper.client', '~/plugins/vLazyImage'],
   /*
    ** Nuxt.js dev-modules
    */

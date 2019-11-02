@@ -107,7 +107,7 @@
     </div>
     <!-- features-section -->
 
-    <div class="offset-lg-4 col-lg-5 offset-md-2 col-md-8" id="contact">
+    <div id="contact" class="offset-lg-4 col-lg-5 offset-md-2 col-md-8">
       <div class="qs-answer-section">
         <img
           src="~/assets/images/others/contact.svg"
